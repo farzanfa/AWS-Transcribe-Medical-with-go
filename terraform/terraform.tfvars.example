@@ -1,0 +1,10 @@
+# AWS Configuration
+aws_region = "us-east-1"
+transcribe_region = "us-east-1"  # Must be one of: us-east-1, us-east-2, us-west-2, eu-west-1, eu-central-1, ap-southeast-2
+
+# Project Configuration
+project_name = "medical-transcribe"
+environment = "poc"
+
+# EC2 Configuration (optional)
+# key_pair_name = ""  # Leave empty to generate a new key pair, or specify existing key pair name
